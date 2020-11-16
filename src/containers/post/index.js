@@ -1,10 +1,12 @@
 import React from 'react';
+import BlogPost from '../../components/BlogPost';
+import SideBar from '../../components/SideBar';
 import './style.css';
 const Post = () => {
     return (
         <section className="container">
-            <div className="blogpost">blogpost</div>
-            <div className="sidebar">sidebar</div>
+                <BlogPost/>
+                <SideBar/>
         </section>
       );
 }
