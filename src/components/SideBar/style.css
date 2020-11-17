@@ -25,3 +25,21 @@
     font-weight: 400;
     color: #565673;
 }
+.recentPost{
+    border-bottom: #565673;
+    margin-bottom: 10px;
+}
+
+.recentPost h4{
+    width: 400;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+
+.recentPost span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #6c6c66;
+}

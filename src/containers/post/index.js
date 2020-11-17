@@ -2,11 +2,12 @@ import React from 'react';
 import BlogPost from '../../components/BlogPost';
 import SideBar from '../../components/SideBar';
 import './style.css';
-const Post = () => {
+const Post = (props) => {
+  console.log(props);
     return (
         <section className="container">
-                <BlogPost/>
-                <SideBar/>
+                <BlogPost {...props}/>
+                <SideBar {...props}/>
         </section>
       );
 }
